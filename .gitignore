@@ -1,0 +1,30 @@
+# Secrets / local
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+secrets/
+automation.config.local.json
+dgx_speed.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.blend1
+*.blend2
